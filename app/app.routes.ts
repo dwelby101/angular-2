@@ -1,4 +1,5 @@
 import { provideRouter, RouterConfig }  from '@angular/router';
+import { HomeComponent } from './home.component';
 import { HeroesComponent } from './heroes.component';
 import { HeroDetailComponent } from './hero-detail.component';
 import { DashboardComponent } from './dashboard.component';
@@ -6,8 +7,12 @@ import { DashboardComponent } from './dashboard.component';
 const routes: RouterConfig = [
     {
         path: '',
-        redirectTo: '/dashboard',
+        redirectTo: '/home',
         pathMatch: 'full'
+    },
+    {
+        path: 'home',
+        component: HomeComponent
     },
     {
         path: 'heroes',
