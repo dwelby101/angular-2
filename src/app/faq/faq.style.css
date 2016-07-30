@@ -1,0 +1,12 @@
+.faq {
+  width: 100%;
+  height: 100%;
+  background-color: #66ff95;
+  border: solid 1px #ff6666;
+}
+
+.faq__title {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
