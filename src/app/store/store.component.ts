@@ -10,9 +10,7 @@ console.log('`store` component loaded asynchronously');
 
 @Component({
   selector: 'store',
-  styleUrls: [
-    'store.style.css'
-  ],
+  styleUrls: ['store.style.scss'],
   templateUrl: 'store.template.html'
 })
 export class Store {

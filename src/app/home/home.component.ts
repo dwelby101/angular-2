@@ -11,7 +11,7 @@ import { Title } from './title';
   ],
   directives: [],
   pipes: [ ],
-  styleUrls: [ './home.style.css' ],
+  styleUrls: [ './home.style.scss' ],
   templateUrl: './home.template.html'
 })
 export class Home {
