@@ -1,0 +1,13 @@
+.store {
+  width: 100%;
+  height: 100%;
+  background-color: #b366ff;
+  border: solid 1px #ff6666;
+
+  &__title {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}

@@ -1,0 +1,12 @@
+.commissions {
+  width: 100%;
+  height: 100%;
+  background-color: #66baff;
+  border: solid 1px #66ffac;
+
+  &__title {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

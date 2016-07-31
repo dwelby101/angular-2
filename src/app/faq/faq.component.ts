@@ -10,9 +10,7 @@ console.log('`faq` component loaded asynchronously');
 
 @Component({
   selector: 'faq',
-  styleUrls: [
-    'faq.style.css'
-  ],
+  styleUrls: ['faq.style.scss'],
   templateUrl: 'faq.template.html'
 })
 export class Faq {

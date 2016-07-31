@@ -10,9 +10,7 @@ console.log('`Commissions` component loaded asynchronously');
 
 @Component({
   selector: 'commissions',
-  styleUrls: [
-    'commissions.style.css'
-  ],
+  styleUrls: ['commissions.style.scss'],
   templateUrl: 'commissions.template.html'
 })
 export class Commissions {
