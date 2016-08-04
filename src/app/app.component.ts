@@ -5,6 +5,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
 
 import { AppState } from './app.service';
 
+import { Header } from '../components/header/header.component';
 /*
  * App Component
  * Top Level Component
@@ -15,32 +16,13 @@ import { AppState } from './app.service';
   styleUrls: [
     './app.style.css'
   ],
+  directives: [
+    Header
+  ],
   template: `
     <md-content>
-      <md-toolbar color="primary">
-          <span>{{ name }}</span>
-          <span class="fill"></span>
 
-          <a md-button [routerLink]=" ['./home'] ">
-            Home
-          </a>
-          <a md-button [routerLink]=" ['./gallery'] ">
-            Gallery
-          </a>
-          <a md-button [routerLink]=" ['./commissions'] ">
-            Commissions
-          </a>
-          <a md-button [routerLink]=" ['./about'] ">
-            About
-          </a>
-          <a md-button [routerLink]=" ['./store'] ">
-            Store
-          </a>
-          <a md-button [routerLink]=" ['./faq'] ">
-            FAQ
-          </a>
-
-      </md-toolbar>
+      <header></header>
 
       <md-progress-bar mode="indeterminate" color="primary" *ngIf="loading"></md-progress-bar>
 
