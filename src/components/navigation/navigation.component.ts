@@ -8,6 +8,7 @@ import {
 } from '@angular/core';
 
 import {NgClass} from '@angular/common';
+import {StickDirective} from '../../directives/stick.directive';
 import {NavigationService} from '../../services/navigation.service';
 import { Menu } from './class-menu';
 
@@ -19,7 +20,8 @@ import { Menu } from './class-menu';
     NavigationService
   ],
   directives: [
-    NgClass
+    NgClass,
+    StickDirective
   ],
   styleUrls: ['./navigation.style.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
