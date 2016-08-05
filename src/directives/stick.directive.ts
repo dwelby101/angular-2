@@ -10,7 +10,7 @@ import {WindowRef} from '../window';
 })
 export class StickDirective {
 
-    private _minY: number = 100;
+    private _minY: number = 158;
     private _className: string = 'navigation--stick';
 
     @Input('stickMin') set stickMin(minY: number) {
