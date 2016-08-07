@@ -26,7 +26,6 @@ export class BrowserWindowRef extends WindowRef {
     }
 }
 
-
 export const WINDOW_PROVIDERS = [
     new Provider(WindowRef, { useClass: BrowserWindowRef }),
     new Provider(WINDOW, { useFactory: _window, deps: [] }),
