@@ -19,6 +19,13 @@
   &__toggle{
     display: none;
   }
+
+  &--stick{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
 }
 
 //=============Tablet
@@ -30,6 +37,13 @@
 
   &__toggle{
     display: none;
+  }
+
+  &--stick{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
   }
 }
 
@@ -60,6 +74,13 @@
     &__toggle {
       padding: 20px 10px 10px 10px;
       display: block;
+    }
+    
+    &--stick{
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
     }
   }
 
