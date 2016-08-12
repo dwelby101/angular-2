@@ -239,3 +239,6 @@ see [typings/registry](https://github.com/typings/registry)
 
 Look into use of Polymer neon-animated-pages (list) for CMS management of images
 [link here](https://elements.polymer-project.org/elements/neon-animation?view=demo:demo/index.html&active=neon-animated-pages)
+
+Look into use of Polymer neon-animated-pages (load) for CMS display of analytics information (page views / most popuar)
+[link here](https://elements.polymer-project.org/elements/neon-animation?view=demo:demo/index.html&active=neon-animated-pages)
