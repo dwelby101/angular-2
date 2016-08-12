@@ -12,6 +12,7 @@
 * [Frequently asked questions](#frequently-asked-questions)
 * [Support, Questions, or Feedback](#support-questions-or-feedback)
 * [License](#license)
+* [To Do](#to-do)
 
 
 ## File Structure
@@ -233,3 +234,8 @@ see [typings/registry](https://github.com/typings/registry)
 
 
 <br><br>
+
+## To Do
+
+Look into use of Polymer neon-animated-pages (list) for CMS management of images
+[link here](https://elements.polymer-project.org/elements/neon-animation?view=demo:demo/index.html&active=neon-animated-pages)
