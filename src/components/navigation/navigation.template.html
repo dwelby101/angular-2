@@ -1,4 +1,5 @@
-<div class="navigation" [ngClass]="{'navigation--open': menuToggle}" stick>
+<div class="container">
+  <div class="navigation " [ngClass]="{'navigation--open': menuToggle}" stick>
     <div class="navigation__item navigation__toggle" (click)="toggleMenu($event)">
       <div class="spinner-master2">
         <div class="spinner-spin2" [ngClass]="{'spinner-master2--spun': menuToggle}">
@@ -11,4 +12,5 @@
     <a class="navigation__item" (click)="toggleMenu($event)"  *ngFor="let item of navItems" [routerLink]=" ['./'+item.name] ">
       {{item.name | uppercase}}
     </a>
+  </div>
 </div>

@@ -8,7 +8,7 @@ import { bootstrap } from '@angular/platform-browser-dynamic';
 */
 import { PLATFORM_PROVIDERS } from './platform/browser';
 import { ENV_PROVIDERS, decorateComponentRef } from './platform/environment';
-import {WINDOW_PROVIDERS} from './window';
+import {WINDOW_PROVIDERS} from './app/window';
 
 
 /*

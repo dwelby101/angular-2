@@ -3,7 +3,7 @@
 // https://medium.com/@MikkelDamm/sticky-header-in-angular2-90364eba81d9#.logqdvwwi
 //****************************************
 import {Directive, ElementRef, Input, HostListener} from '@angular/core';
-import {WindowRef} from '../window';
+import {WindowRef} from '../app/window';
 
 @Directive({
     selector: '[stick]'
@@ -12,6 +12,7 @@ export class StickDirective {
 
     private _minY: number = 158;
     private _className: string = 'navigation--stick';
+    private _className2: string = 'container';
 
     @Input('stickMin') set stickMin(minY: number) {
         this._minY = minY || this._minY;
@@ -31,10 +32,12 @@ export class StickDirective {
         if (this._window.nativeWindow.pageYOffset > this._minY) {
 console.log('its hit the if.........');
             this._element.nativeElement.classList.add(this._className);
+            this._element.nativeElement.classList.add(this._className2);
 
         } else {
 console.log('its hit the else.........');
             this._element.nativeElement.classList.remove(this._className);
+            this._element.nativeElement.classList.remove(this._className2);
         }
     }
 }

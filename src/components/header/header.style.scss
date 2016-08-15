@@ -1,18 +1,15 @@
 .header{
 
-  //height: 200px;
+  height:160px;
   width: 100%;
-  background-color: rgb(251, 245, 166);
   float:left;
-
-  &__image{
-    height:110px;
-    width:50%;
-    margin: 20px auto;
-    text-align: center;
-  }
+  background-image: url("../../assets/img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.75);
 
   &__nav{
+    margin-top: 105px;
     height: 68px;
     width: 100%;
   }

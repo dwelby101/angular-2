@@ -9,29 +9,29 @@ import { Header } from '../components/header/header.component';
 /*
  * App Component
  * Top Level Component
+ * './app.style.css'
  */
 @Component({
   selector: 'app',
   encapsulation: ViewEncapsulation.None,
   styleUrls: [
-    './app.style.css'
+    '../assets/styles/skeleton.scss'
   ],
   directives: [
     Header
   ],
   template: `
-    <md-content>
+    <md-content >
 
-      <header></header>
+      <header> </header>
 
-      <md-progress-bar mode="indeterminate" color="primary" *ngIf="loading"></md-progress-bar>
+      <!--<md-progress-bar mode="indeterminate" color="primary" *ngIf="loading"></md-progress-bar>-->
 
-      <main style="height: 80%">
+      <main style="height: 100%">
         <router-outlet></router-outlet>
       </main>
 
-
-      <footer>
+      <footer class="container" >
         <span id="footerText">Footer for fionaniland.com
           <a [href]="url">@finiland</a>
         </span>
